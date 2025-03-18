@@ -9,8 +9,8 @@ from pathlib import Path
 from argparse import ArgumentParser
 
 # Add directories to the Python path so that we can import custom modules
-sys.path.append("src/models")
-sys.path.append("src/tools")
+sys.path.append("backend/models")
+sys.path.append("backend/tools")
 
 from track_net import TrackNet
 from utils import extract_numbers, write_json, read_json
